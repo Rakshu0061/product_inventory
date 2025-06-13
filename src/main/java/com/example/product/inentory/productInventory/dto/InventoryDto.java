@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 public class InventoryDto {
 
     private int inventoryId;
+    private int prodId;
     @NotNull
     @Min(value = 0, message = "Quantity cannot be negative")
     private Integer availableQuantity;
@@ -24,6 +25,14 @@ public class InventoryDto {
     }
 
     public InventoryDto() {
+    }
+
+    public int getProdId() {
+        return prodId;
+    }
+
+    public void setProdId(int prodId) {
+        this.prodId = prodId;
     }
 
     public int getInventoryId() {
