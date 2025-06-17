@@ -25,7 +25,11 @@ This is a simple Spring Boot-based application that manages products and invento
 - Maven
 - GitHub
 
-
+## To Do List
+ - spring security
+ - user authentication
+ - user authorization
+   
 
 
 
