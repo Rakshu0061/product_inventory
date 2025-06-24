@@ -29,6 +29,8 @@ This is a simple Spring Boot-based application that manages products and invento
  - spring security
  - user authentication
  - user authorization
+ - JWT Token
+ - JWT Authentication
    
 
 
